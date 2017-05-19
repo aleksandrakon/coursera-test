@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title> Java_Zadanie_Pierwsze
+</title>
+
+<script type="text/javascript">
+
+	function DoMath ()
+	{ 
+	var Number = document.getElementById("number").value;
+
+	var answer = Number * 3;
+	
+	document.getElementById("output").innerHTML = "the result is " + answer;
+	}
+	
+</script>
+
+</head>
+
+<body>
+
+<H1 style="color:blue;"> Let's see another button</H1>
+
+<input id="number" type="text"/>
+
+<button onclick="DoMath();">Calculate</button>
+
+<p id="output" style="color:red;"></p>
+
+
+
+
+
+</body>
+</html>
